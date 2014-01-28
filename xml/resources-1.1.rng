@@ -47,6 +47,9 @@
 	<optional>
 	  <attribute name="description"><text/></attribute>
 	</optional>
+	<optional>
+	  <attribute name="tags"><text/></attribute>
+	</optional>
 	<ref name="element-resource-extra"/>
 	<ref name="element-operations"/>
       	<zeroOrMore>
@@ -80,6 +83,9 @@
 	<optional>
 	  <attribute name="description"><text/></attribute>
 	</optional>
+	<optional>
+	  <attribute name="tags"><text/></attribute>
+	</optional>
 	<ref name="element-resource-extra"/>
 	<ref name="element-operations"/>
       	<zeroOrMore>
@@ -97,6 +103,9 @@
       <optional>
 	<attribute name="description"><text/></attribute>
       </optional>
+	  <optional>
+	    <attribute name="tags"><text/></attribute>
+	  </optional>
       <interleave>
 	<ref name="element-resource-extra"/>
 	<oneOrMore>
@@ -112,7 +121,10 @@
       <optional>
 	<attribute name="description"><text/></attribute>
       </optional>
-      <interleave>
+	  <optional>
+	    <attribute name="tags"><text/></attribute>
+	  </optional>
+       <interleave>
 	<ref name="element-resource-extra"/>
 	<choice>
 	  <ref name="element-primitive"/>
@@ -128,7 +140,10 @@
       <optional>
 	<attribute name="description"><text/></attribute>
       </optional>
-      <interleave>
+	  <optional>
+	    <attribute name="tags"><text/></attribute>
+	  </optional>
+       <interleave>
 	<ref name="element-resource-extra"/>
 	<choice>
 	  <ref name="element-primitive"/>
