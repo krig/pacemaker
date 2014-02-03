@@ -23,6 +23,7 @@ core=`dirname $0`
 create_mode="true"
 info Generating test outputs for these tests...
 # do_test file description
+do_test tags "Resource tags"
 
 info Done.
 echo ""
